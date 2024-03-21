@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elishah Chrisman Real Estate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .featured-listings {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .listing {
+            width: 30%;
+            background-color: #f4f4f4;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .listing img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elishah Chrisman Real Estate</h1>
+        <p>Your Trusted Partner in Finding Your Dream Home</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Featured Listings</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <div class="container">
+        <h2>About Elishah Chrisman</h2>
+        <p>Elishah Chrisman is a seasoned real estate agent with a passion for helping clients find their perfect homes. With years of experience in the real estate industry, Elishah has a proven track record of exceeding client expectations and delivering exceptional service.</p>
+        
+        <h2>Services Offered</h2>
+        <ul>
+            <li>Buying and Selling Homes</li>
+            <li>Property Evaluation</li>
+            <li>Market Analysis</li>
+        </ul>
+
+        <h2>Featured Listings</h2>
+        <div class="featured-listings">
+            <div class="listing">
+                <img src="https://via.placeholder.com/300" alt="Listing 1">
+                <h3>Listing 1</h3>
+                <p>Description of Listing 1</p>
+            </div>
+            <div class="listing">
+                <img src="https://via.placeholder.com/300" alt="Listing 2">
+                <h3>Listing 2</h3>
+                <p>Description of Listing 2</p>
+            </div>
+            <div class="listing">
+                <img src="https://via.placeholder.com/300" alt="Listing 3">
+                <h3>Listing 3</h3>
+                <p>Description of Listing 3</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Elishah Chrisman Real Estate</p>
+    </footer>
+</body>
+</html>
